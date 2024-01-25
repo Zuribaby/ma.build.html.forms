@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melsoft Academy Programmimg Language Survey</title>
+</head>
+<body>
+  <h1>Melsoft Academy Programming Language Survey</h1>
+  <!-- Form element with a post method -->
+  <form action="/submit" method="post">
+  <!-- Forms Fields to collect user details -->
+  <label for="userName">Name:</label>
+  <input type="text" id="userName" name="user_name" placeholder="Name">
+
+  <label for="userEmail">Email:</label>
+  <input type="text" id="userEmail" name="user_email" placeholder="Email">
+  
+  <label for="userPassword">Password:</label>
+  <input type="password" id="userpassword" name="user_password" placeholder="Password">
+
+  <!-- Submit button -->
+  <input type="submit" value="Submit">
+  </form>
+
+  <!-- Fieldset element -->
+  <form action="/submit" method="post">
+    <fieldset>
+      <legend>Add User</legend>
+      <!-- Form Fields to collect user details -->
+  <label for="userName">Name:</label>
+  <input type="text" id="userName" name="user_name" placeholder="Name">
+
+  <label for="userEmail">Email:</label>
+  <input type="text" id="userEmail" name="user_email" placeholder="Email">
+    </fieldset>
+
+    <fieldset>
+      <legend>User Password</legend>
+  <label for="userPassword">Password:</label>
+  <input type="password" id="userPassword" name="user_password" placeholder="Password">
+
+  <label for="confirmPassword">Confirm Password:</label>
+  <input type="password" id="confirmPassword" name="confirm_password" placeholder="Confirm Password">
+
+    </fieldset>
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+  </form>
+
+  <form action="/submit" method="post">
+    <fieldset>
+      <legend>Add User</legend>
+      <!-- Form Fields to collect user details -->
+  <label for="firstName">First name:</label>
+  <input type="text" id="firstName" name="first_name" placeholder="First name">
+
+  <label for="lastName">Last name:</label>
+  <input type="text" id="userName" name="user_name" placeholder="Name">
+
+  <label for="userEmail">Email:</label>
+  <input type="text" id="userEmail" name="user_email" placeholder="Email">
+    </fieldset>
+
+    <fieldset>
+      <legend>User Password</legend>
+  <label for="userPassword">Password:</label>
+  <input type="password" id="userPassword" name="user_password" placeholder="Password">
+
+  <label for="confirmPassword">Confirm Password:</label>
+  <input type="password" id="confirmPassword" name="confirm_password" placeholder="Confirm Password">
+
+    </fieldset>
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+  </form>
+
+  <form action="/submit" method="post">
+
+    <!-- Label for status selection -->
+    <label for="status">Status:</label>
+
+    <!-- Dropdown menu for status selection -->
+    <select name="status" id="status">
+      <option value="student">Student</option>
+      <option value="instructor">Instructor</option>
+      <option value="guest">Guest</option>
+    </select>
+
+    <p>“Choose your favourite programming language:”</p>
+
+    <!-- A radio button with the label “HTML” -->
+
+    <label for="html">HTML</label>
+    <input type="radio" id="html" name="programming_language" value="html">
+
+    <!-- A radio button with the label “CSS”  -->
+
+    <label for="css">CSS</label>
+    <input type="radio" id="css" name="programming_language" value="css">
+
+    <!-- A radio button with the label “JavaScript” -->
+
+    <label for="javascript">JavaScript</label>
+    <input type="radio" id="javascript" name="programming_language" value="javascript">
+
+    <!-- Text area for user comments -->
+
+    <label for="comments">Comments:</label>
+    <textarea name="comments" id="comments" cols="50" rows="5"></textarea>
+
+    <!-- Input element for the date labelled current date -->
+
+    <label for="currentDate">Current Date:</label>
+    <input type="date" id="currentDate" name="current_date">
+
+    <!-- A checkbox input element labelled “Sign up for the newsletter” -->
+
+    <label for="newsletterSignup">Sign up for newsletter”</label>
+    <input type="checkbox" id="newsletterSignup" name="newsletter_Signup">
+
+    <!-- A checkbox input element labelled “Agree to terms and conditions” -->
+
+    <label for="agreetot&m"> Agree to terms and conditions</label>
+    <input type="checkbox" id="agreetot&m" name="agreetot&m">
+
+    <!-- A submit button labelled “Submit” -->
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
